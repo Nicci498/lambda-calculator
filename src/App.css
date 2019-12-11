@@ -20,3 +20,44 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.container .button{
+
+    border-radius: 50%;
+    margin-right: 5%;
+    color:white;
+    font-size: 5rem;
+    border:1px solid black;
+}
+
+.container .op {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;      
+}
+
+.container .spec{
+    display:flex;
+    flex-direction: row; 
+}
+
+.container .nums{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap:wrap;
+}
+    
+
+
+.container .op button{
+    background-color: teal;     
+}
+
+.container .nums button{
+    background-color: navy;     
+}
+
+.container .spec button{
+    background-color: blue;    
+ 
+}
